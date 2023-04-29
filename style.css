@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCE8E8;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F58A8A;
+    margin-bottom: 1rem;
+  }
+  
+  .inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4E4E4E;
+    margin-right: 1rem;
+  }
+  
+  input {
+    width: 3rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+  }
+  
+  .timer-display {
+    font-size: 7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F58A8A;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FCE8E8;
+    background-color: #F58A8A;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FFB5B5;
+  }
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pomodoro Timer</h1>
+      <div class="inputs">
+        <label for="work-input">Work time:</label>
+        <input id="work-input" type="number" min="1" max="60" value="25">
+        <label for="break-input">Break time:</label>
+        <input id="break-input" type="number" min="1" max="60" value="5">
+      </div>
+      <div class="timer-display work-interval" id="timer-display">25:00</div>
+      <div class="buttons">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn">Pause</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
